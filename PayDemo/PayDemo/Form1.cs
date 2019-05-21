@@ -38,5 +38,18 @@ namespace PayDemo
             string url = "https://www.scimence.club/PayFor/SDK.aspx";
             System.Diagnostics.Process.Start(url);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random(DateTime.Now.Second);
+            int N = rnd.Next(1, 100);
+
+            string productName = "商品" + N;
+            string moneyYuan = (0.01 * N) + "";
+            string orderId = "订单：" + N;
+            string reserve = "xxx"+N;
+
+            SciPay.PayTool.Pay(productName, moneyYuan, orderId, reserve);   // 调用支付
+        }
     }
 }
