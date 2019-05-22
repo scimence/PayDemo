@@ -4,16 +4,14 @@
 
 #### 介绍
 
+Windows应用软件，支付示例。（开发环境 Microsoft Visual Studio）
 
-Windows应用软件，支付示例。
+#### 1、支付插件引入
+
+添加PayTool.cs至你的项目中
 
 
-
-#### 支付接入
-
-
-![1](https://scimence.gitee.io/PayDemo/files/pic/输出依赖dll.png)
-
+#### 2、支付接入
 
 ![2](https://scimence.gitee.io/PayDemo/files/pic/支付接入.png)
 
@@ -21,7 +19,7 @@ Windows应用软件，支付示例。
 https://scimence.gitee.io/PayDemo/files/PayDemo.exe
 
 #### 示例源码
-https://scimence.gitee.io/PayDemo/files/PayDemo_20190520.zip
+https://scimence.gitee.io/PayDemo/files/PayDemo_20190522.zip
 
 #### 支付功能已实现，提现后台建设中
 

@@ -17,7 +17,6 @@ namespace PayDemo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            SciPay.DepensFile.ExportDll();  // 输出依赖dll
             Application.Run(new Form1());
         }
     }

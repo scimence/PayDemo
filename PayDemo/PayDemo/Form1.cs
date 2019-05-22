@@ -18,7 +18,7 @@ namespace PayDemo
             InitializeComponent();
 
             // 软件名称自定义，scimence修改为您自己的开发者名称
-            SciPay.PayTool.Init("PayDemo", "scimence", PayResult);          // 初始化
+            PayTool.Init("PayDemo", "scimence", PayResult);          // 初始化
         }
 
         // 支付结果回调处理逻辑
@@ -29,7 +29,7 @@ namespace PayDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SciPay.PayTool.Pay("商品1", "0.01", "00001", "reserve");   // 调用支付
+            PayTool.Pay("商品1", "0.01", "00001", "reserve");   // 调用支付
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -49,7 +49,7 @@ namespace PayDemo
             string orderId = "订单：" + N;
             string reserve = "xxx"+N;
 
-            SciPay.PayTool.Pay(productName, moneyYuan, orderId, reserve);   // 调用支付
+            PayTool.Pay(productName, moneyYuan, orderId, reserve);   // 调用支付
         }
     }
 }
