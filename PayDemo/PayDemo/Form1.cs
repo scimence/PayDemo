@@ -17,7 +17,7 @@ namespace PayDemo
         {
             InitializeComponent();
 
-            // 软件名称自定义，scimence修改为您自己的开发者名称
+            // 软件名称自定义，scimence修改为您自己的支付宝收款账号
             PayTool.Init("PayDemo", "scimence", PayResult);          // 初始化
         }
 
@@ -35,7 +35,7 @@ namespace PayDemo
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
-            string url = "https://www.scimence.club/PayFor/SDK.aspx";
+            string url = "http://scimence.gitee.io/url/QRPay.html";
             System.Diagnostics.Process.Start(url);
         }
 

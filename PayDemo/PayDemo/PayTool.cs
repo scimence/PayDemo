@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace PayDemo
 {
-    // https://www.scimence.club/PayFor/SDK.aspx 开发者账号注册时，设置您的开发者名称
+    // http://scimence.gitee.io/url/QRPay.html 开发者账号注册时，设置您的开发者名称
     // 添加PayTool.cs类到项目，为应用提供支付功能
 
-    // 1、初始化，软件名称自定义，scimence修改为您自己的开发者名称, 在PayResult中执行回调处理逻辑
+    // 1、初始化，软件名称自定义，scimence修改为您自己的支付宝收款账号, 在PayResult中执行回调处理逻辑
     // PayTool.Init("PayDemo", "scimence", PayResult);    
 
     // 2、调用支付
